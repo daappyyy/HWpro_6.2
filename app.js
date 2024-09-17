@@ -4,18 +4,6 @@
 
 const randomElements = [10, 45, 5, 'hello', 5, 'puppy', "cat", 6, 'he', 1, 6, 12, 'rabbit', 11];
 
-// function addElementInArray(){
-//     let userInput;
-//     while (true){
-//         userInput = prompt("Enter an element of the array");
-//         if(userInput === null){
-//             break;
-//         }
-//         randomElements.push(userInput);
-//     }
-// }
-// addElementInArray();
-
 function showArray(){
     console.log(`Original array: ${randomElements.join(', ')}`);
 }
